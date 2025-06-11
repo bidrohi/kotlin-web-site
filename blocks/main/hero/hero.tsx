@@ -47,7 +47,8 @@ export const HeroSection: FC<Props> = ({ children, title }) => {
                             <Image src={HeroImg} alt={"kotlin"} className={styles.imageMobile} />
 
                             <div className={styles.info}>
-                                <Button size={'l'} href="/docs/getting-started.html" className={styles.getStartedButton}>
+                                <Button size={'l'} href="/docs/getting-started.html" className={styles.getStartedButton}
+                                        data-test={"get started button"}>
                                     Get started
                                 </Button>
                                 <div className={styles.developer}>

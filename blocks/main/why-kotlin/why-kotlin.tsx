@@ -161,6 +161,7 @@ export const WhyKotlin: FC<Props> = ({}) => {
                             size={'l'}
                             className={styles.getStartedButton}
                             href={'docs/getting-started.html'}
+                            data-test="why kotlin section button"
                         >
                             Get started
                         </Button>

@@ -59,7 +59,8 @@ function KotlinPlusAI() {
                             developing a simple chat assistant or an advanced multi-step workflow, Koog gives you full
                             control with clean Kotlin code – no external services are required. Build, extend, and
                             experiment with AI agents entirely in Kotlin.</p>
-                        <Button mode="rock" size={size} className={styles.getStarted} href="https://docs.koog.ai/">Get
+                        <Button mode="rock" size={size} className={styles.getStarted} href="https://docs.koog.ai/"
+                                data-test={"Koog get started button"}>Get
                             started</Button>
                     </div>
                     <BlockScheme className={styles.buildAgentsScheme} />

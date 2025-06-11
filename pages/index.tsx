@@ -243,7 +243,7 @@ function Index() {
                         className={styles.ctaBlock}
                         mainTitle={<>Start using{isTS && <br />} Kotlin today!</>}
                         buttons={
-                            <Button href="/docs/getting-started.html" size="l" mode="rock" theme="light">
+                            <Button href="/docs/getting-started.html" size="l" mode="rock" theme="light" data-test={'get started in CTA'}>
                                 Get started
                             </Button>
                         }
